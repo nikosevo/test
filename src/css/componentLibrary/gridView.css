@@ -1,0 +1,48 @@
+.containerGridView{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #131314;
+    padding: 10px;
+    z-index: 100;
+}
+
+.gridview{
+    width: 70%;
+    margin: 20px 10px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    align-items: center;
+
+}
+
+.component-box{
+    background-color: rgb(76, 182, 175);
+    border-radius: 14px;
+    width: 60px;
+    height: 50px;
+    color: white;
+    display: block;
+    align-items: center;
+    text-align: left;
+    user-select: none;
+
+}
+
+.component-box .icon{
+    font-size: xx-large;
+    width: 100%;
+    margin: 0 100 0 0;
+    padding: auto;
+    text-align: center;
+}
+
+.component-box .title{
+    text-align: center;
+    font-size: x-small;
+}
+
+.component-box .red{
+    color: white;
+}

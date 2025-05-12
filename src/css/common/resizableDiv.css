@@ -1,0 +1,28 @@
+body,
+html,
+#root {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  /* overflow: hidden; */
+  position: absolute;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.resize {
+  width: 10px;
+  background: black;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  cursor: col-resize;
+}

@@ -1,0 +1,23 @@
+.container{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.resizeBar{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #202020;
+    width: 2px;
+    height: 100%;
+}
+
+.resizeBar:hover{
+    width: 2px;
+    background-color: gray;
+    cursor:col-resize;
+}
